@@ -15,4 +15,13 @@ OUTLINE:
 00:03:30 Protecting Young Explorers
 
 
+Discover the fascinating journey of Motorola's groundbreaking chips in "The Evolution of Motorola Chips: From 6800 to 88000!" In this video, we dive deep into the history and innovations behind the iconic 6800, 68000, 8800, and 88000 microprocessors. Explore how these chips powered some of the most influential computers and cell phones of their time, while also examining the fierce competition from the 6500 series. Whether you’re a tech enthusiast or a history buff, this video will shed light on the monumental impact of Motorola's technology on the digital landscape. Don't forget to like and share this video! 
+
+#Motorola #Microprocessors #TechHistory #6800 #68000 #8800 #88000 #Computers #CellPhones
+
+OUTLINE: 
+
+00:00:00 A Legacy in Microprocessors
+00:01:44 The Dawn of a New Era
+
 https://youtube.com/@nelsonmota-s4u
