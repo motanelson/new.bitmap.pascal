@@ -24,4 +24,17 @@ OUTLINE:
 00:00:00 A Legacy in Microprocessors
 00:01:44 The Dawn of a New Era
 
+Dive into the fascinating world of IBM PC x86 Video BIOS Modes in this video! We’ll explore modes 0 to 3, including the classic text mode and delve into the vibrant graphics capabilities of mode 12 with 640x480 resolution and 16 colors, and the iconic mode 13 featuring 320x200 resolution and 256 colors. Discover how these modes revolutionized early computing and gaming, while we also touch on the unique PC sound experience that accompanied them. Whether you're a retro computing enthusiast or just curious about technology's evolution, this video is packed with insights! Like and share if you enjoyed it!
+
+#IBMPc #VideoBIOS #RetroGaming #TechHistory #PCGaming
+
+OUTLINE: 
+
+00:00:00 Introduction to Video BIOS and Its Modes
+00:01:04 Text Mode and Low-Resolution Graphics
+00:01:51 Unleashing the Colors
+00:02:54 BIOS, Sound, and Conclusion
+
+
+
 https://youtube.com/@nelsonmota-s4u
