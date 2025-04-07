@@ -1,6 +1,6 @@
 # Computer.history
 Computer history 
-editing and building videos
+
 
 
 
