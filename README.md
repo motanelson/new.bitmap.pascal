@@ -41,3 +41,13 @@ OUTLINE:
 00:01:47 The Power of 3D X-Ray Scanning
 00:02:37 Reimagining Ancient Ingenuity
 
+Unlock the potential of your Raspberry Pi by creating your very own Mono virtual machine! In this fun and informative guide, we’ll walk you through the necessary steps using a Debian Lite image. Learn how to install essential packages like SSH, Nano, Openbox, XTerminal, and Mono-complete to get your system up and running. You’ll discover how to set up an operating system capable of executing C# and Visual Basic .NET programs seamlessly. Whether you’re a seasoned developer or a curious beginner, this project can elevate your Raspberry Pi experience. Like and share this video to spread the joy of DIY Raspberry Pi projects! 
+
+#RaspberryPi #MonoVM #CSharp #VisualBasic #DebianLite #TechDIY
+
+OUTLINE: 
+
+00:00:00 Introduction to Mono VM on Raspberry Pi
+00:00:32 Gathering Your Tools
+00:01:25 Setting Up Your Mono Environment
+00:02:35 The Power of Mono on Raspberry Pi
