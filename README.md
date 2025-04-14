@@ -30,4 +30,14 @@ OUTLINE:
 00:01:29 C# Powering Immersive Experiences
 00:02:11 C# in a Quantum World
 
+Join us as HP embarks on an exciting journey to uncover the mysteries of the Antikythera Machine, the world’s oldest known computer! Using cutting-edge 3D x-ray scanning technology, we delve deep into the intricate design and unique physiognomy of this ancient marvel. Discover how this remarkable device functioned and its significance in the history of computing. Experience the blend of history and innovation as we reveal the secrets hidden within the Antikythera Machine. Don’t forget to like and share this video with your friends! 
+
+#AntikytheraMachine #HPInnovation #3DXRay #AncientTechnology #HistoryOfComputing #TechMysteries
+
+OUTLINE: 
+
+00:00:00 The Enigmatic Antikythera Machine
+00:00:52 Peering into the Heart of the Mechanism
+00:01:47 The Power of 3D X-Ray Scanning
+00:02:37 Reimagining Ancient Ingenuity
 
