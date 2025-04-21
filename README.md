@@ -20,3 +20,13 @@ OUTLINE:
 00:02:22 A Revolution in Industry
 00:03:31 A Legacy of Innovation
 
+Discover how the invention of the telegraph in the 1930s transformed global communication forever! This groundbreaking innovation connected cities and continents, allowing news to travel instantaneously and making the world feel smaller. Join us as we explore the impact of the telegraph on journalism, social interactions, and everyday life, ushering in an era where people began to truly live in the moment. Uncover the fascinating stories behind this revolutionary technology and its lasting influence on our communication landscape today. If you find this history intriguing, don't forget to like and share the video! 
+
+#Telegraph #GlobalCommunication #History #Innovation #Journalism #1930s #LiveInTheMoment
+
+OUTLINE: 
+
+00:00:00 The Dawn of Instantaneous Communication
+00:00:41 Revolutionizing News and Information
+00:01:30 Shrinking the World, Connecting Lives
+00:02:17 Living in a More Connected World
