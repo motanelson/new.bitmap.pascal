@@ -27,3 +27,14 @@ OUTLINE:
 00:00:37 How They Solved the Artillery Problem
 00:01:13 From Charts to Computers
 00:01:49 From Battlefield to iPhone
+
+Discover how the invention of the printing press in 1500 transformed technology and society! In this video, we delve into the groundbreaking innovations brought forth by Johannes Gutenberg, exploring how his revolutionary device enabled the mass production of books, democratized knowledge, and sparked the Renaissance. Learn about the profound impact of the printing press on literacy, communication, and the spread of ideas that shaped our modern world. Join us on this fascinating journey through history and uncover the legacy of one of the most significant inventions ever! Don’t forget to like and share this video! 
+
+#PrintingPress #Gutenberg #TechRevolution #History #Renaissance #Innovation
+
+OUTLINE: 
+
+00:00:00 A New Era of Communication
+00:00:58 From Wine to Words
+00:01:57 Books for Everyone
+00:02:48 The Printing Press and Global Change
