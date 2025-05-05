@@ -22,3 +22,15 @@ OUTLINE:
 00:04:43 Conclusion
 
 
+Step back in time with us as we explore the fascinating world of manual telephone exchanges! Discover how human operators connected calls, using their skills to link conversations before the digital age took over. We'll delve into the intricate workings of switchboards, the challenges operators faced, and the evolution of communication technology. With stunning visuals and engaging stories, this nostalgic journey highlights the importance of human connection in an era dominated by automation. 
+
+Join us in celebrating this unique piece of history! Don't forget to like and share the video to keep the memories alive! 
+
+#ManualTelephoneExchanges #TelecommunicationHistory #ThrowbackThursday #HumanConnection #VintageTechnology
+
+OUTLINE: 
+
+00:00:00 The Voice Behind the Call
+00:00:59 How Operators Made it Work
+00:02:01 The Rise of the Machines (No, Not the Movie)
+00:02:54 A Society Transformed
