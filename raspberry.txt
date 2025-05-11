@@ -1,0 +1,99 @@
+ How to Install Windows IoT Core on a Raspberry Pi: A Step-by-Step Guide
+The Raspberry Pi is a powerful and affordable mini-computer loved by hobbyists, engineers, and students. While most people use Linux-based systems like Raspberry Pi OS, it’s also possible to run Windows IoT Core — a lightweight version of Windows designed for smart devices and Internet of Things (IoT) projects.
+
+Here’s a clear and simple guide on how to install Windows IoT Core on your Raspberry Pi and get started with connected development.
+
+ What You’ll Need
+Before you begin, make sure you have the following:
+
+ A Raspberry Pi 2, 3, or 3B+ (Windows IoT does not support Pi 4 officially)
+
+ A microSD card (at least 8GB; Class 10 or higher recommended)
+
+ A Windows 10/11 PC
+
+ Internet connection
+
+ A 5V 2.5A power supply for your Pi
+
+ Keyboard, mouse, HDMI cable, and monitor (optional for headless setup)
+
+ MicroSD card reader for your PC
+
+ Step 1: Install Windows 10 IoT Core Dashboard
+On your Windows PC:
+
+Go to the official Microsoft IoT Developer site
+
+Download and install the Windows 10 IoT Core Dashboard
+
+Open the IoT Dashboard and select “Set up a new device” on the left menu
+
+ Step 2: Set Up Your Device
+In the dashboard:
+
+Device type: Raspberry Pi 2 & 3
+
+OS Build: Windows 10 IoT Core
+
+Drive: Choose your SD card
+
+Enter a device name and admin password
+
+Optionally, check “Enable Wi-Fi” and choose your network
+
+Accept the software license terms
+
+Click “Download and Install”
+
+The tool will now download the image and flash your SD card. This might take a few minutes.
+
+ Step 3: Boot Up Your Raspberry Pi
+Insert the microSD card into your Raspberry Pi
+
+Connect your monitor, keyboard, and mouse
+
+Plug in the power supply
+
+The Pi will boot into Windows 10 IoT Core and display a basic UI with device info
+
+If you enabled Wi-Fi or Ethernet, your Pi will now be on the network.
+
+ Step 4: Connect and Develop
+Back on your Windows PC, go to the IoT Dashboard and find your device listed under “My Devices”.
+
+From there, you can:
+
+Launch PowerShell remotely
+
+Deploy apps using Visual Studio
+
+Monitor performance and logs
+
+Install updates
+
+To create your own apps, install Visual Studio 2019 or 2022, and create a Universal Windows Platform (UWP) project targeting IoT Core.
+
+ What Can You Build with Windows IoT?
+Smart home controllers
+
+Industrial sensors
+
+Security camera systems
+
+Classroom teaching tools
+
+Robotics and automation
+
+Windows IoT Core is lightweight, secure, and supports C#, .NET, and UWP, making it ideal for developers familiar with Microsoft tools.
+
+ Important Notes
+Windows IoT Core does NOT offer a full desktop experience — it’s designed for headless or single-purpose apps.
+
+Not compatible with Raspberry Pi 4 without community workarounds.
+
+For more power and desktop-like experience, consider Windows 11 ARM64 unofficial builds (not recommended for production).
+
+ Conclusion
+Installing Windows 10 IoT Core on your Raspberry Pi opens the door to a world of smart device development using Microsoft’s ecosystem. Whether you’re building a smart display, sensor system, or kiosk, the setup is surprisingly easy and well-documented.
+
