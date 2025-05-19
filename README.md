@@ -47,6 +47,17 @@ OUTLINE:
 00:01:17 Celebrating 50 Years of Ethernet
 00:01:59 AI Joins the Network Party
 
+
+Discover the groundbreaking journey of satellite telephony and the internet in our latest video, "How Satellites Revolutionized Global Communication!" From early experiments to the modern day, we explore how satellites have transformed the way we connect across vast distances. Learn about the technological innovations that made global communication possible, enabling everything from phone calls to high-speed internet access in even the most remote locations. Join us as we dive into the fascinating history of satellite technology and its impact on our daily lives. Don’t forget to like and share this video with fellow tech enthusiasts! 
+
+#SatelliteTelephony #GlobalCommunication #InternetRevolution #TechHistory #SatelliteTechnology
+
+OUTLINE: 
+
+00:00:00 The Early Days of Satellite Telephony
+00:01:01 Technological Advancements in Satellite Communication
+00:02:09 Satellite Telephony's Impact on Remote Areas
+00:03:15 The Global Impact of Satellite Communication
 00:00:00 Making Sounds from Scratch
 00:00:35 The Path to Electronic Sound
 00:01:19 Moog and Beyond
