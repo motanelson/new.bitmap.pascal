@@ -34,6 +34,19 @@ Dive into the fascinating history of sound synthesizers in "The Evolution of Sou
 
 OUTLINE: 
 
+
+
+Explore the fascinating journey of internal data networks in our latest video, "The Evolution of Internal Data Networks: From Ethernet to AI." Discover how the invention of Ethernet revolutionized connectivity, paving the way for the immense advancements we see today. We delve into key milestones, technologies, and the role of AI in shaping the future of networking. Whether you’re a tech enthusiast or a curious learner, this video offers insights into the backbone of modern communication. Don’t forget to like and share if you enjoy our exploration of this transformative technology! 
+
+#DataNetworks #Ethernet #AI #TechHistory #NetworkingEvolution #TechnologyInsights
+
+OUTLINE: 
+
+00:00:00 The Birth of Ethernet
+00:00:34 Ethernet's Growth Spurt
+00:01:17 Celebrating 50 Years of Ethernet
+00:01:59 AI Joins the Network Party
+
 00:00:00 Making Sounds from Scratch
 00:00:35 The Path to Electronic Sound
 00:01:19 Moog and Beyond
