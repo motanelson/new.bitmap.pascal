@@ -1,4 +1,4 @@
-⁸# Computer.history
+# Computer.history
 Computer history 
 
 
