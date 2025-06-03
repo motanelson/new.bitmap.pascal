@@ -18,5 +18,16 @@ OUTLINE:
 00:07:41 Decline and Enduring Legacy
 
 
+Discover the fascinating story behind the invention of lithography in our latest video, "The Art of Lithography: A Journey Through Time." From its humble beginnings in the late 18th century to its impact on modern printing techniques, this video explores how lithography revolutionized the art world and communication. Learn about the key figures, innovative processes, and milestones that shaped this unique printmaking method. Come along as we delve into the art and science of lithography, highlighting its vibrant colors, intricate designs, and the physical characteristics that make it an enduring favorite among artists and printmakers alike. 
 
+If you enjoy the video, please like and share it! 
+
+#Lithography #Printmaking #ArtHistory #Invention #ArtisticJourney
+
+OUTLINE: 
+
+00:00:00 The Birth of Planographic Printing
+00:02:04 The Accidental Inventor
+00:04:07 Early Uses and Spread
+00:06:10 Innovations and the Lasting Image of Lithography
 
