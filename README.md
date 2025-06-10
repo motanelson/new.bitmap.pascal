@@ -4,7 +4,7 @@ Computer history
 
 old videos on :
 
-https://youtube.com/@nelsonmota-s4u
+https://youtube.com/@nelsonmotamota-e5j
 
 JavaOS on Raspberry Pi: How to Build a Minimal Java-Centric System
 The dream of building a JavaOS — a lightweight system centered entirely around Java applications — is very much alive, especially for makers, educators, and hobbyists using the Raspberry Pi. With free software tools like GNU Java (GCJ or OpenJDK), a minimal Linux distro, and a basic graphical environment, you can transform a Pi into a pure Java platform.
