@@ -6,25 +6,111 @@ old videos on :
 
 https://youtube.com/@nelsonmota-s4u
 
-Explore the fascinating journey of synthetic materials from their humble beginnings to the revolutionary innovations shaping our world today. This timeline journey uncovers key milestones in the development of materials like nylon, polyester, and Kevlar, highlighting their impact on industries such as fashion, aerospace, and technology. Discover how these man-made fibers transformed everyday life and paved the way for future advancements. Whether you're a science enthusiast or just curious about the materials behind modern inventions, this video offers a clear and engaging overview. Don’t forget to like and share if you find this history as intriguing as we do! #SyntheticMaterials #MaterialScience #InnovationHistory #Nylon #Polyester #Kevlar #TechEvolution
+How to Build a Custom GambaOS on Raspberry Pi Using Gambas
+In the world of open-source computing, few tools are as powerful—and overlooked—as Gambas. It's a full-featured development environment inspired by Visual Basic, and when combined with a lightweight Linux base, you can create your own GambaOS: a Gambas-powered system running directly on a Raspberry Pi.
 
-OUTLINE: 
+This guide walks you through building your own minimalist Raspberry Pi system with Gambas 3, a virtual machine for running Gambas applications, and a minimal GUI environment.
 
-00:00:00 The History of Synthetic Materials
+ What You’ll Need
+A Raspberry Pi (any model, but Pi 3 or newer is recommended)
 
-Discover the fascinating history and invention of woodcut printing in this story-driven video! Explore how this ancient art form originated, its evolution through centuries, and the impact it had on art, communication, and culture. Perfect for students interested in art history and printmaking techniques, this video breaks down the key milestones and innovations that shaped woodcut printing. Learn about the pioneers behind this craft and see how woodcut influenced other printing methods. Enhance your knowledge with engaging visuals and clear explanations. Don't forget to like and share this video to spread the story of woodcut printing! #WoodcutHistory #Printmaking #ArtHistory #WoodcutInvention #StudentLearning
+A microSD card (8GB or more)
 
-OUTLINE: 
+Internet connection
 
-00:00:00 History and Invention of Woodcut
-Discover the fascinating journey of nanotechnology from its conceptual origins to groundbreaking inventions that revolutionized science and industry. This video explores key milestones, pioneering scientists, and innovative breakthroughs that shaped nanotech into a powerful tool for medicine, electronics, and materials science. Dive into how manipulating matter at the atomic level has opened new frontiers in technology and transformed the way we understand the world. Whether you're a science enthusiast or curious learner, this detailed history of nanotechnology will inspire and inform. Don't forget to like and share if you find this exploration insightful! #Nanotechnology #ScienceHistory #Innovation #Nanotech #TechnologyBreakthroughs
+A keyboard, mouse, and HDMI screen
 
-OUTLINE: 
+A computer to write the SD card image
 
-00:00:00 History and Invention of Nanotechnology
+ Step 1: Flash a Minimal Raspbian Image
+Download the Raspberry Pi OS Lite (32-bit) from raspberrypi.com.
 
-Step into the fascinating world where science meets science fiction! In this video, we explore the concept of the "Carbon Era"—a new age defined by the rise of carbon-based nanostructures that could revolutionize technology and society. Drawing inspiration from classic sci-fi novels, we'll discuss how these nanostructures might suddenly emerge, transforming everything from medicine to materials science. Could we be on the brink of a carbon-driven technological breakthrough? Join us as we delve into the science behind the fiction and uncover what the future could hold. Don’t forget to like and share if you’re as excited about the carbon era as we are! #CarbonEra #Nanotechnology #SciFiScience #FutureTech #ScienceExplained
+Use Raspberry Pi Imager, balenaEtcher, or dd to flash the image onto the microSD card.
 
-OUTLINE: 
+Insert the card into your Pi and boot it up.
 
-00:00:00 Are We Entering the Carbon Era? Sci-Fi Explained
+ Step 2: Update the System
+Once the Pi boots and you log in:
+
+bash
+Copiar
+Editar
+sudo apt update && sudo apt upgrade -y
+ Step 3: Install a Minimal GUI (Openbox + x-terminal)
+bash
+Copiar
+Editar
+sudo apt install --no-install-recommends xorg openbox xterm lightdm
+xorg: The X display server
+
+openbox: Lightweight window manager
+
+xterm: Simple terminal emulator
+
+lightdm: Simple login manager
+
+After installation, enable the GUI to launch:
+
+bash
+Copiar
+Editar
+sudo systemctl enable lightdm
+Then reboot:
+
+bash
+Copiar
+Editar
+sudo reboot
+ Step 4: Install Gambas 3
+After rebooting into the GUI:
+
+bash
+Copiar
+Editar
+sudo apt install gambas3 gambas3-gb-gui gambas3-ide gambas3-runtime
+This will install the Gambas IDE, its GUI components, and the virtual machine needed to execute Gambas applications.
+
+ Step 5: Create Your Own Gambas Environment
+Now you can:
+
+Launch gambas3 from the terminal or menu
+
+Create desktop applications visually with drag-and-drop design
+
+Compile them for execution using the Gambas virtual machine
+
+You’ve essentially created your own GambaOS—a system centered around the Gambas development environment and runtime!
+
+ Optional: Autostart Gambas Apps at Boot
+If you want a Gambas app to launch automatically (like a kiosk system):
+
+Create your .gambas app and compile it.
+
+Edit the Openbox autostart file:
+
+bash
+Copiar
+Editar
+nano ~/.config/openbox/autostart
+Add your app path:
+
+bash
+Copiar
+Editar
+/path/to/your/gambas/app &
+Save and reboot.
+
+ Conclusion
+Congratulations! You've now created a minimalist Linux system tailored to Gambas development and application execution—a custom GambaOS for Raspberry Pi.
+
+This setup is perfect for:
+
+Kiosk apps
+
+Educational systems
+
+Custom desktop tools
+
+Home automation dashboards
+
+ With Gambas, you don’t just write apps—you design your own desktop experience, powered by open-source tools.
