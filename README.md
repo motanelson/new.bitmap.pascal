@@ -11,3 +11,9 @@ Explore the fascinating journey of synthetic materials from their humble beginni
 OUTLINE: 
 
 00:00:00 The History of Synthetic Materials
+
+Discover the fascinating history and invention of woodcut printing in this story-driven video! Explore how this ancient art form originated, its evolution through centuries, and the impact it had on art, communication, and culture. Perfect for students interested in art history and printmaking techniques, this video breaks down the key milestones and innovations that shaped woodcut printing. Learn about the pioneers behind this craft and see how woodcut influenced other printing methods. Enhance your knowledge with engaging visuals and clear explanations. Don't forget to like and share this video to spread the story of woodcut printing! #WoodcutHistory #Printmaking #ArtHistory #WoodcutInvention #StudentLearning
+
+OUTLINE: 
+
+00:00:00 History and Invention of Woodcut
