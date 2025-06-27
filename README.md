@@ -7,6 +7,9 @@ old videos on :
 https://youtube.com/@nelsonmotamota-e5j
 
 
+
+
+
 How to Build a Custom GambaOS on Raspberry Pi Using Gambas
 In the world of open-source computing, few tools are as powerful—and overlooked—as Gambas. It's a full-featured development environment inspired by Visual Basic, and when combined with a lightweight Linux base, you can create your own GambaOS: a Gambas-powered system running directly on a Raspberry Pi.
 
