@@ -10,111 +10,116 @@ https://youtube.com/@nelsonmotamota-e5j
 
 
 
-How to Build a Custom GambaOS on Raspberry Pi Using Gambas
-In the world of open-source computing, few tools are as powerful—and overlooked—as Gambas. It's a full-featured development environment inspired by Visual Basic, and when combined with a lightweight Linux base, you can create your own GambaOS: a Gambas-powered system running directly on a Raspberry Pi.
+Building DosBoxOS: A Lightweight Multi-Window DOS Virtualization System
 
-This guide walks you through building your own minimalist Raspberry Pi system with Gambas 3, a virtual machine for running Gambas applications, and a minimal GUI environment.
+DosBoxOS is a custom-built lightweight operating environment designed for users who want to run multiple DOS-based virtual machines in parallel using DOSBox, all within a minimal Openbox window manager environment. Ideal for retro computing enthusiasts, educational setups, or embedded systems, DosBoxOS brings simplicity, performance, and flexibility together.
 
- What You’ll Need
-A Raspberry Pi (any model, but Pi 3 or newer is recommended)
+Here’s a breakdown of how to build your own DosBoxOS setup.
 
-A microSD card (8GB or more)
 
-Internet connection
+---
 
-A keyboard, mouse, and HDMI screen
+🧩 System Overview
 
-A computer to write the SD card image
+DosBoxOS is not a traditional full-featured operating system. Instead, it is a minimal Linux-based environment using the Openbox window manager, optimized to run multiple DOSBox sessions, each in its own dedicated window.
 
- Step 1: Flash a Minimal Raspbian Image
-Download the Raspberry Pi OS Lite (32-bit) from raspberrypi.com.
+🔧 Core Components
 
-Use Raspberry Pi Imager, balenaEtcher, or dd to flash the image onto the microSD card.
+1. Base Linux System
+Start with a lightweight Linux distribution, such as:
 
-Insert the card into your Pi and boot it up.
+Debian Minimal / netinst
 
- Step 2: Update the System
-Once the Pi boots and you log in:
+Arch Linux
 
-bash
-Copiar
-Editar
-sudo apt update && sudo apt upgrade -y
- Step 3: Install a Minimal GUI (Openbox + x-terminal)
-bash
-Copiar
-Editar
-sudo apt install --no-install-recommends xorg openbox xterm lightdm
-xorg: The X display server
+Alpine Linux These provide the bare essentials without bloated desktop environments.
 
-openbox: Lightweight window manager
 
-xterm: Simple terminal emulator
 
-lightdm: Simple login manager
+2. Openbox Window Manager
+Openbox is a fast, lightweight, and highly configurable window manager. It allows you to run multiple windows without the overhead of a full desktop environment.
 
-After installation, enable the GUI to launch:
 
-bash
-Copiar
-Editar
-sudo systemctl enable lightdm
-Then reboot:
+3. DOSBox Emulator
+DOSBox is an open-source x86 emulator with DOS, ideal for running legacy games and software. Install it via your package manager:
 
-bash
-Copiar
-Editar
-sudo reboot
- Step 4: Install Gambas 3
-After rebooting into the GUI:
+sudo apt install dosbox
 
-bash
-Copiar
-Editar
-sudo apt install gambas3 gambas3-gb-gui gambas3-ide gambas3-runtime
-This will install the Gambas IDE, its GUI components, and the virtual machine needed to execute Gambas applications.
 
- Step 5: Create Your Own Gambas Environment
-Now you can:
+4. TerminalX or XTerm
+Terminal emulator used to launch and control DOSBox instances.
 
-Launch gambas3 from the terminal or menu
 
-Create desktop applications visually with drag-and-drop design
 
-Compile them for execution using the Gambas virtual machine
 
-You’ve essentially created your own GambaOS—a system centered around the Gambas development environment and runtime!
+---
 
- Optional: Autostart Gambas Apps at Boot
-If you want a Gambas app to launch automatically (like a kiosk system):
+🖥️ System Features
 
-Create your .gambas app and compile it.
+Multiple DOS Virtual Machines: Launch several independent DOSBox windows, each running its own DOS software.
 
-Edit the Openbox autostart file:
+Openbox Interface: Clean, keyboard-friendly interface for window tiling and quick app launching.
 
-bash
-Copiar
-Editar
-nano ~/.config/openbox/autostart
-Add your app path:
+Terminal-based Control: Use TerminalX or another lightweight terminal to manage and script your DOSBox instances.
 
-bash
-Copiar
-Editar
-/path/to/your/gambas/app &
-Save and reboot.
+Low Resource Usage: Ideal for old hardware or virtual machines.
 
- Conclusion
-Congratulations! You've now created a minimalist Linux system tailored to Gambas development and application execution—a custom GambaOS for Raspberry Pi.
 
-This setup is perfect for:
 
-Kiosk apps
+---
 
-Educational systems
+🚀 How to Set It Up
 
-Custom desktop tools
+1. Install a Minimal Linux Base Use a lightweight installer and only install core packages. Ensure X11 or Wayland is installed to enable windowed environments.
 
-Home automation dashboards
 
- With Gambas, you don’t just write apps—you design your own desktop experience, powered by open-source tools.
+2. Install Openbox
+
+sudo apt install openbox obconf
+
+
+3. Install DOSBox and Terminal
+
+sudo apt install dosbox xterm
+
+
+4. Configure Openbox Autostart Add DOSBox sessions or terminal launchers to ~/.config/openbox/autostart:
+
+xterm -e dosbox &
+xterm -e dosbox ~/dosgames/Doom &
+
+
+5. Optional: Add a Panel (like tint2)
+For better window navigation:
+
+sudo apt install tint2
+
+
+6. Create Shortcuts or Scripts
+Set up hotkeys or desktop entries for launching different DOSBox configurations with various software.
+
+
+
+
+---
+
+🔄 Use Cases
+
+Educational labs teaching MS-DOS or legacy software
+
+Retro gaming stations with multiple DOS games
+
+Lightweight virtual workstations for embedded or kiosk systems
+
+Automation of legacy workflows in industrial environments
+
+
+
+---
+
+🧠 Final Thoughts
+
+DosBoxOS is a niche but powerful solution for reviving DOS applications in a modern, minimal, and efficient environment. Whether you're a hobbyist, developer, or educator, this system provides a creative and functional way to experience the legacy of DOS in a highly customizable and performant Linux setup.
+
+
+---
