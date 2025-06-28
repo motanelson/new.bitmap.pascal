@@ -4,7 +4,7 @@ Computer history
 
 old videos on :
 
-https://youtube.com/@nelsonmotamota-e5j
+https://www.youtube.com/@NelsonMota-s4u
 
 
 
