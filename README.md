@@ -8,6 +8,9 @@ https://www.youtube.com/@NelsonMota-s4u
 
 
 
+build you sound file:
+
+https://www.onlineconverter.com/audio-to-video
 
 
 Building DosBoxOS: A Lightweight Multi-Window DOS Virtualization System
