@@ -16,6 +16,8 @@ https://www.onlineconverter.com/audio-to-video
 https://www.onlineconverter.com/txt-document
 
 
+https://play.google.com/store/apps/details?id=com.google.android.apps.translate
+
 
 https://play.google.com/store/apps/details?id=com.alpaca.android.readout
 
