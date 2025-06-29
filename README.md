@@ -19,6 +19,12 @@ https://www.onlineconverter.com/txt-document
 
 https://play.google.com/store/apps/details?id=com.alpaca.android.readout
 
+to pdf:
+
+https://play.google.com/store/apps/details?id=com.rhmsoft.edit
+
+
+
 
 
 Building DosBoxOS: A Lightweight Multi-Window DOS Virtualization System
