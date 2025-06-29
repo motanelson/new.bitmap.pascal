@@ -27,7 +27,7 @@ format text =utf8
 https://play.google.com/store/apps/details?id=com.rhmsoft.edit
 
 
-
+https://play.google.com/store/apps/details?id=imagetopdf.pdfconverter.jpgtopdf.pdfeditor
 
 
 Building DosBoxOS: A Lightweight Multi-Window DOS Virtualization System
