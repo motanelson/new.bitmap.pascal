@@ -21,6 +21,9 @@ https://play.google.com/store/apps/details?id=com.alpaca.android.readout
 
 to pdf:
 
+format text =utf8
+
+
 https://play.google.com/store/apps/details?id=com.rhmsoft.edit
 
 
