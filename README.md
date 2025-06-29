@@ -17,6 +17,10 @@ https://www.onlineconverter.com/txt-document
 
 
 
+https://play.google.com/store/apps/details?id=com.alpaca.android.readout
+
+
+
 Building DosBoxOS: A Lightweight Multi-Window DOS Virtualization System
 
 DosBoxOS is a custom-built lightweight operating environment designed for users who want to run multiple DOS-based virtual machines in parallel using DOSBox, all within a minimal Openbox window manager environment. Ideal for retro computing enthusiasts, educational setups, or embedded systems, DosBoxOS brings simplicity, performance, and flexibility together.
