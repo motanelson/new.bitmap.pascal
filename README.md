@@ -1,10 +1,7 @@
-# Computer.history
-Computer history 
+photonics
+wix:
 
-
-old videos on :
-
-https://www.youtube.com/@NelsonMota-s4u
+JTAJXP
 
 
 
